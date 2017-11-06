@@ -25,7 +25,7 @@ section{
     height: 60vh;
     box-shadow: 0 0 10px black;
     margin: auto;
-   background: purple;
+   background: lime;
     margin-bottom: 20vh;
     opacity: 0;
     transition: 2s;
