@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    font-family: 'Open Sans', monospace;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.container{
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+    margin-top: 0;
+}
+section{
+    height: 500vh;
+    width: 80%;
+    margin: auto;
+    background: aquamarine;
+    padding-top: 20vh;
+}
+.fadeEffect{
+    width: 60%;
+    height: 60vh;
+    box-shadow: 0 0 10px black;
+    margin: auto;
+   background: purple;
+    margin-bottom: 20vh;
+    opacity: 0;
+    transition: 2s;
+    
+}
